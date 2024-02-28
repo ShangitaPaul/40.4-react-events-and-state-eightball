@@ -73,3 +73,48 @@ Alternatively, you can use Node Version Manager (nvm) to manage Node.js installa
 By following these steps, you should have successfully installed Node.js and npm on your Fedora Linux system.
 # Create new React app
 npx create-react-app magic-eight-ball
+# Create .gitignore
+Certainly! The `.gitignore` file is used to specify intentionally untracked files and directories that Git should ignore. Here are the steps to create a `.gitignore` file specifically for ignoring the `node_modules` directory in a Node.js project:
+
+### Create a `.gitignore` File:
+
+1. **Navigate to Your Project Directory:**
+   - Open a terminal and change to the root directory of your Node.js project.
+
+2. **Create the `.gitignore` File:**
+   - Use a text editor to create a new file named `.gitignore`. You can use a command-line editor like `nano` or create it using your preferred code editor. For example, using `nano`:
+     ```bash
+     nano .gitignore
+     ```
+
+3. **Edit the `.gitignore` File:**
+   - Add the following line to the file to instruct Git to ignore the `node_modules` directory:
+     ```plaintext
+     /node_modules
+     ```
+
+4. **Save and Exit:**
+   - Save the changes in `nano` by pressing `Ctrl` + `X`, then press `Y` to confirm, and finally press `Enter`.
+
+   - If you are using a different text editor, save the file and close the editor.
+
+### Verify .gitignore:
+
+5. **Check the Status:**
+   - Run the following command to check the status of your Git repository and see the changes made to the `.gitignore` file:
+     ```bash
+     git status
+     ```
+
+   - You should see that the `.gitignore` file is modified.
+
+6. **Add and Commit the Changes:**
+   - Add the `.gitignore` file to the staging area and commit it to the repository:
+     ```bash
+     git add .gitignore
+     git commit -m "Add .gitignore to ignore node_modules"
+     ```
+
+   - Replace the commit message with your own if desired.
+
+Now, your project is configured to ignore the `node_modules` directory, which is a good practice in Git repositories to avoid versioning large dependency directories.
