@@ -122,15 +122,12 @@ Now, your project is configured to ignore the `node_modules` directory, which is
 # Run
 Run the App:
 
-In the terminal, make sure you are in the project directory (magic-eight-ball).
-Run the following command to start the development server:
-bash
-Copy code
-npm start
-This will open the React app in your default web browser.
-Interact with the Magic Eight Ball:
-
-Visit http://localhost:3000/ in your browser.
-You should see the Magic Eight Ball component.
-Click on the ball to see it randomly choose an answer with the corresponding color.
-Now, you have successfully set up a React app for the Magic Eight Ball with the second solution, including installing dependencies, creating JSON data, and styling the component.
+1. In the terminal, make sure you are in the project directory (magic-eight-ball).
+2. Run the following command to start the development server:
+   npm start
+- This will open the React app in your default web browser.
+3. Interact with the Magic Eight Ball:
+Visit http://localhost:3000/ in your browser
+- You should see the Magic Eight Ball component.
+- Click on the ball to see it randomly choose an answer with the corresponding color.
+- Now, you have successfully set up a React app for the Magic Eight Ball with the second solution, including installing dependencies, creating JSON data, and styling the component.
